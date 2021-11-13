@@ -46,9 +46,10 @@ public class Main {
                 }
             }
             driver.switchTo().window(window2);
-            driver.get("http://www.google.com");
-            driver.close();
+            driver.get("http://www.vk.com");
             driver.switchTo().window(window1);
+            driver.close();
+            //driver.switchTo().window(window1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } //finally {
